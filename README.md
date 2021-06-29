@@ -1,4 +1,4 @@
-# Analoger - Programming languages translator
+# Analoger - programming languages translator
 
 The user selects the programming language "from" and the programming language "to". Introduces some construction from the first language and gets the result: translation into the second language with explanations and examples
 
