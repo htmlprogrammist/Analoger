@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6AF446A268B9BAB00E0C0B3 /* AnalogerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF4469268B9BAB00E0C0B3 /* AnalogerApp.swift */; };
-		F6AF446C268B9BAB00E0C0B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF446B268B9BAB00E0C0B3 /* ContentView.swift */; };
-		F6AF446E268B9BB200E0C0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AF446D268B9BB200E0C0B3 /* Assets.xcassets */; };
-		F6AF4471268B9BB200E0C0B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AF4470268B9BB200E0C0B3 /* Preview Assets.xcassets */; };
+		F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D893279B3DB700398D1E /* AppDelegate.swift */; };
+		F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D895279B3DB700398D1E /* SceneDelegate.swift */; };
+		F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D897279B3DB700398D1E /* MainViewController.swift */; };
+		F6A0D89D279B3DBB00398D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D89C279B3DBB00398D1E /* Assets.xcassets */; };
+		F6A0D8A0279B3DBB00398D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D89E279B3DBB00398D1E /* LaunchScreen.storyboard */; };
+		F6A0D8B1279B44B700398D1E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */; };
+		F6A0D8B4279B44DB00398D1E /* DocsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D8B3279B44DB00398D1E /* DocsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6AF4466268B9BAB00E0C0B3 /* Analoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6AF4469268B9BAB00E0C0B3 /* AnalogerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogerApp.swift; sourceTree = "<group>"; };
-		F6AF446B268B9BAB00E0C0B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F6AF446D268B9BB200E0C0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F6AF4470268B9BB200E0C0B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F6AF4472268B9BB200E0C0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A0D890279B3DB700398D1E /* Analoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A0D893279B3DB700398D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6A0D895279B3DB700398D1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6A0D897279B3DB700398D1E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F6A0D89C279B3DBB00398D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A0D89F279B3DBB00398D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A0D8A1279B3DBB00398D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F6A0D8B3279B44DB00398D1E /* DocsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6AF4463268B9BAB00E0C0B3 /* Frameworks */ = {
+		F6A0D88D279B3DB700398D1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,52 +39,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6AF445D268B9BAB00E0C0B3 = {
+		F6A0D887279B3DB700398D1E = {
 			isa = PBXGroup;
 			children = (
-				F6AF4468268B9BAB00E0C0B3 /* Analoger */,
-				F6AF4467268B9BAB00E0C0B3 /* Products */,
+				F6A0D892279B3DB700398D1E /* Analoger */,
+				F6A0D891279B3DB700398D1E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F6AF4467268B9BAB00E0C0B3 /* Products */ = {
+		F6A0D891279B3DB700398D1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6AF4466268B9BAB00E0C0B3 /* Analoger.app */,
+				F6A0D890279B3DB700398D1E /* Analoger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6AF4468268B9BAB00E0C0B3 /* Analoger */ = {
+		F6A0D892279B3DB700398D1E /* Analoger */ = {
 			isa = PBXGroup;
 			children = (
-				F6AF4469268B9BAB00E0C0B3 /* AnalogerApp.swift */,
-				F6AF446B268B9BAB00E0C0B3 /* ContentView.swift */,
-				F6AF446D268B9BB200E0C0B3 /* Assets.xcassets */,
-				F6AF4472268B9BB200E0C0B3 /* Info.plist */,
-				F6AF446F268B9BB200E0C0B3 /* Preview Content */,
+				F6A0D8AE279B3EF100398D1E /* Application */,
+				F6A0D8AC279B3EEB00398D1E /* Controllers */,
+				F6A0D8A9279B3DE500398D1E /* Resources */,
 			);
 			path = Analoger;
 			sourceTree = "<group>";
 		};
-		F6AF446F268B9BB200E0C0B3 /* Preview Content */ = {
+		F6A0D8A9279B3DE500398D1E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6AF4470268B9BB200E0C0B3 /* Preview Assets.xcassets */,
+				F6A0D89C279B3DBB00398D1E /* Assets.xcassets */,
+				F6A0D89E279B3DBB00398D1E /* LaunchScreen.storyboard */,
+				F6A0D8A1279B3DBB00398D1E /* Info.plist */,
 			);
-			path = "Preview Content";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F6A0D8AC279B3EEB00398D1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D897279B3DB700398D1E /* MainViewController.swift */,
+				F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */,
+				F6A0D8B3279B44DB00398D1E /* DocsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6A0D8AE279B3EF100398D1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D893279B3DB700398D1E /* AppDelegate.swift */,
+				F6A0D895279B3DB700398D1E /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6AF4465268B9BAB00E0C0B3 /* Analoger */ = {
+		F6A0D88F279B3DB700398D1E /* Analoger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6AF4475268B9BB200E0C0B3 /* Build configuration list for PBXNativeTarget "Analoger" */;
+			buildConfigurationList = F6A0D8A4279B3DBB00398D1E /* Build configuration list for PBXNativeTarget "Analoger" */;
 			buildPhases = (
-				F6AF4462268B9BAB00E0C0B3 /* Sources */,
-				F6AF4463268B9BAB00E0C0B3 /* Frameworks */,
-				F6AF4464268B9BAB00E0C0B3 /* Resources */,
+				F6A0D88C279B3DB700398D1E /* Sources */,
+				F6A0D88D279B3DB700398D1E /* Frameworks */,
+				F6A0D88E279B3DB700398D1E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +111,24 @@
 			);
 			name = Analoger;
 			productName = Analoger;
-			productReference = F6AF4466268B9BAB00E0C0B3 /* Analoger.app */;
+			productReference = F6A0D890279B3DB700398D1E /* Analoger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F6AF445E268B9BAB00E0C0B3 /* Project object */ = {
+		F6A0D888279B3DB700398D1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					F6AF4465268B9BAB00E0C0B3 = {
+					F6A0D88F279B3DB700398D1E = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = F6AF4461268B9BAB00E0C0B3 /* Build configuration list for PBXProject "Analoger" */;
+			buildConfigurationList = F6A0D88B279B3DB700398D1E /* Build configuration list for PBXProject "Analoger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +136,56 @@
 				en,
 				Base,
 			);
-			mainGroup = F6AF445D268B9BAB00E0C0B3;
-			productRefGroup = F6AF4467268B9BAB00E0C0B3 /* Products */;
+			mainGroup = F6A0D887279B3DB700398D1E;
+			productRefGroup = F6A0D891279B3DB700398D1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6AF4465268B9BAB00E0C0B3 /* Analoger */,
+				F6A0D88F279B3DB700398D1E /* Analoger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F6AF4464268B9BAB00E0C0B3 /* Resources */ = {
+		F6A0D88E279B3DB700398D1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AF4471268B9BB200E0C0B3 /* Preview Assets.xcassets in Resources */,
-				F6AF446E268B9BB200E0C0B3 /* Assets.xcassets in Resources */,
+				F6A0D8A0279B3DBB00398D1E /* LaunchScreen.storyboard in Resources */,
+				F6A0D89D279B3DBB00398D1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F6AF4462268B9BAB00E0C0B3 /* Sources */ = {
+		F6A0D88C279B3DB700398D1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6AF446C268B9BAB00E0C0B3 /* ContentView.swift in Sources */,
-				F6AF446A268B9BAB00E0C0B3 /* AnalogerApp.swift in Sources */,
+				F6A0D8B4279B44DB00398D1E /* DocsViewController.swift in Sources */,
+				F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */,
+				F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */,
+				F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */,
+				F6A0D8B1279B44B700398D1E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F6A0D89E279B3DBB00398D1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A0D89F279B3DBB00398D1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F6AF4473268B9BB200E0C0B3 /* Debug */ = {
+		F6A0D8A2279B3DBB00398D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		F6AF4474268B9BB200E0C0B3 /* Release */ = {
+		F6A0D8A3279B3DBB00398D1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,17 +301,15 @@
 			};
 			name = Release;
 		};
-		F6AF4476268B9BB200E0C0B3 /* Debug */ = {
+		F6A0D8A5279B3DBB00398D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Analoger/Preview Content\"";
 				DEVELOPMENT_TEAM = H8V3Y2JKY7;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Analoger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Analoger/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,17 +321,15 @@
 			};
 			name = Debug;
 		};
-		F6AF4477268B9BB200E0C0B3 /* Release */ = {
+		F6A0D8A6279B3DBB00398D1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Analoger/Preview Content\"";
 				DEVELOPMENT_TEAM = H8V3Y2JKY7;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Analoger/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Analoger/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,25 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6AF4461268B9BAB00E0C0B3 /* Build configuration list for PBXProject "Analoger" */ = {
+		F6A0D88B279B3DB700398D1E /* Build configuration list for PBXProject "Analoger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6AF4473268B9BB200E0C0B3 /* Debug */,
-				F6AF4474268B9BB200E0C0B3 /* Release */,
+				F6A0D8A2279B3DBB00398D1E /* Debug */,
+				F6A0D8A3279B3DBB00398D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6AF4475268B9BB200E0C0B3 /* Build configuration list for PBXNativeTarget "Analoger" */ = {
+		F6A0D8A4279B3DBB00398D1E /* Build configuration list for PBXNativeTarget "Analoger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6AF4476268B9BB200E0C0B3 /* Debug */,
-				F6AF4477268B9BB200E0C0B3 /* Release */,
+				F6A0D8A5279B3DBB00398D1E /* Debug */,
+				F6A0D8A6279B3DBB00398D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F6AF445E268B9BAB00E0C0B3 /* Project object */;
+	rootObject = F6A0D888279B3DB700398D1E /* Project object */;
 }
