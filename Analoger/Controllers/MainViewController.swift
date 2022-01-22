@@ -17,11 +17,13 @@ class MainViewController: UIViewController {
         return tableView
     }()
     let toolBar: UIToolbar = {
-        let toolBar = UIToolbar()
+        let toolBar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
         toolBar.translatesAutoresizingMaskIntoConstraints = false
         return toolBar
     }()
-
+    // questionmark.app.fill
+    // questionmark.square.fill
+    // questionmark.circle.fill
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,7 +37,12 @@ class MainViewController: UIViewController {
     }
     
     @objc func openSettings() {
-        
+        let destination = UINavigationController(rootViewController: SettingsViewController())
+        navigationController?.present(destination, animated: true, completion: nil)
+    }
+    
+    @objc func handleFoundMistake() {
+        print("Found mistake?")
     }
 }
 
@@ -44,9 +51,10 @@ extension MainViewController {
         view.addSubview(historyTableView)
         view.addSubview(toolBar)
         
-        let settings = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .plain, target: self, action: #selector(openSettings))
+        let foundMistake = UIBarButtonItem(image: UIImage(systemName: "questionmark.circle"), style: .plain, target: self, action: #selector(handleFoundMistake))
         let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
-        toolBar.setItems([space, settings], animated: true)
+        let settings = UIBarButtonItem(image: UIImage(systemName: "gear"), style: .plain, target: self, action: #selector(openSettings))
+        toolBar.setItems([foundMistake, space, settings], animated: true)
     }
     
     func setConstraints() {

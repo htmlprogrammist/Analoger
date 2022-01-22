@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F66CEFF2279BEAED00A73746 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CEFF1279BEAED00A73746 /* UILabel.swift */; };
 		F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D893279B3DB700398D1E /* AppDelegate.swift */; };
 		F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D895279B3DB700398D1E /* SceneDelegate.swift */; };
 		F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D897279B3DB700398D1E /* MainViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F66CEFF1279BEAED00A73746 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		F6A0D890279B3DB700398D1E /* Analoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A0D893279B3DB700398D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A0D895279B3DB700398D1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F66CEFEF279BEACC00A73746 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F66CEFF0279BEAD100A73746 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F66CEFF0279BEAD100A73746 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F66CEFF1279BEAED00A73746 /* UILabel.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		F6A0D887279B3DB700398D1E = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +78,7 @@
 			children = (
 				F6A0D8AE279B3EF100398D1E /* Application */,
 				F6A0D8AC279B3EEB00398D1E /* Controllers */,
+				F66CEFEF279BEACC00A73746 /* Extensions */,
 				F6A0D8A9279B3DE500398D1E /* Resources */,
 			);
 			path = Analoger;
@@ -167,6 +186,7 @@
 				F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */,
 				F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */,
 				F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */,
+				F66CEFF2279BEAED00A73746 /* UILabel.swift in Sources */,
 				F6A0D8B1279B44B700398D1E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
