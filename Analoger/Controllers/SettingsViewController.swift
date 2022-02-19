@@ -9,10 +9,11 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
-    var programmingLanguages = ["Python", "JavaScript", "C/C++", "Swift", "Rust", "Ruby"]
+    var programmingLanguages = ["Python", "JavaScript", "C/C++", "Swift"]
     
     let infoLabel: UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 20)
         label.text = "Choose programming language"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -44,6 +45,8 @@ class SettingsViewController: UIViewController {
     }
     
     @objc func handleSave() {
+        print("From: \(programmingLanguages[fromPicker.selectedRow(inComponent: 0)]); In: \(programmingLanguages[inPicker.selectedRow(inComponent: 0)])")
+        
         navigationController?.dismiss(animated: true, completion: nil)
     }
 }
@@ -56,7 +59,7 @@ extension SettingsViewController {
         view.addSubview(fromPicker)
         view.addSubview(inLabel)
         view.addSubview(inPicker)
-        
+         
         fromPicker.delegate = self
         fromPicker.dataSource = self
         inPicker.delegate = self
@@ -95,5 +98,12 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         programmingLanguages.count
     }
     
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        programmingLanguages[row]
+    }
     
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        fromPicker.resignFirstResponder()
+        inPicker.resignFirstResponder()
+    }
 }
