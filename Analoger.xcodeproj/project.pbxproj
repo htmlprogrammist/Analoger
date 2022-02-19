@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F04E98B427C15D170040D50A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F04E98B527C15D410040D50A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F0A04D9027C1463B00932B88 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0A04D9327C1472B00932B88 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		F61EA020279C587D001BB237 /* OboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OboardingViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,8 @@
 		F6A0D887279B3DB700398D1E = {
 			isa = PBXGroup;
 			children = (
+				F04E98B527C15D410040D50A /* .gitignore */,
+				F04E98B427C15D170040D50A /* README.md */,
 				F6A0D892279B3DB700398D1E /* Analoger */,
 				F6A0D891279B3DB700398D1E /* Products */,
 			);
