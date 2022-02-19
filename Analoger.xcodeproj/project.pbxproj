@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0A04D9127C1463B00932B88 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A04D9027C1463B00932B88 /* MainTabBarController.swift */; };
+		F0A04D9427C1472B00932B88 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A04D9327C1472B00932B88 /* HistoryViewController.swift */; };
 		F61EA021279C587D001BB237 /* OboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61EA020279C587D001BB237 /* OboardingViewController.swift */; };
 		F66CEFF2279BEAED00A73746 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CEFF1279BEAED00A73746 /* UILabel.swift */; };
 		F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D893279B3DB700398D1E /* AppDelegate.swift */; };
 		F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D895279B3DB700398D1E /* SceneDelegate.swift */; };
-		F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D897279B3DB700398D1E /* MainViewController.swift */; };
+		F6A0D898279B3DB700398D1E /* AnalogerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D897279B3DB700398D1E /* AnalogerViewController.swift */; };
 		F6A0D89D279B3DBB00398D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D89C279B3DBB00398D1E /* Assets.xcassets */; };
 		F6A0D8A0279B3DBB00398D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D89E279B3DBB00398D1E /* LaunchScreen.storyboard */; };
 		F6A0D8B1279B44B700398D1E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */; };
@@ -19,12 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0A04D9027C1463B00932B88 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F0A04D9327C1472B00932B88 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		F61EA020279C587D001BB237 /* OboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OboardingViewController.swift; sourceTree = "<group>"; };
 		F66CEFF1279BEAED00A73746 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		F6A0D890279B3DB700398D1E /* Analoger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Analoger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A0D893279B3DB700398D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A0D895279B3DB700398D1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6A0D897279B3DB700398D1E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F6A0D897279B3DB700398D1E /* AnalogerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogerViewController.swift; sourceTree = "<group>"; };
 		F6A0D89C279B3DBB00398D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6A0D89F279B3DBB00398D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6A0D8A1279B3DBB00398D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0A04D9227C1470E00932B88 /* Analoger */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D897279B3DB700398D1E /* AnalogerViewController.swift */,
+				F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */,
+			);
+			path = Analoger;
+			sourceTree = "<group>";
+		};
 		F66CEFEF279BEACC00A73746 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +112,9 @@
 		F6A0D8AC279B3EEB00398D1E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F6A0D897279B3DB700398D1E /* MainViewController.swift */,
-				F6A0D8B0279B44B700398D1E /* SettingsViewController.swift */,
+				F0A04D9027C1463B00932B88 /* MainTabBarController.swift */,
+				F0A04D9227C1470E00932B88 /* Analoger */,
+				F0A04D9327C1472B00932B88 /* HistoryViewController.swift */,
 				F6A0D8B3279B44DB00398D1E /* DocsViewController.swift */,
 				F61EA020279C587D001BB237 /* OboardingViewController.swift */,
 			);
@@ -186,10 +200,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A0D8B4279B44DB00398D1E /* DocsViewController.swift in Sources */,
-				F6A0D898279B3DB700398D1E /* MainViewController.swift in Sources */,
+				F6A0D898279B3DB700398D1E /* AnalogerViewController.swift in Sources */,
+				F0A04D9127C1463B00932B88 /* MainTabBarController.swift in Sources */,
 				F6A0D894279B3DB700398D1E /* AppDelegate.swift in Sources */,
 				F6A0D896279B3DB700398D1E /* SceneDelegate.swift in Sources */,
 				F66CEFF2279BEAED00A73746 /* UILabel.swift in Sources */,
+				F0A04D9427C1472B00932B88 /* HistoryViewController.swift in Sources */,
 				F6A0D8B1279B44B700398D1E /* SettingsViewController.swift in Sources */,
 				F61EA021279C587D001BB237 /* OboardingViewController.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OboardingViewController: UIViewController {
+final class OboardingViewController: UIViewController {
     
     let titleLabel: UILabel = {
         let label = UILabel()
