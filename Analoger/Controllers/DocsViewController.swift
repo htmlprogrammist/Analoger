@@ -12,13 +12,7 @@ final class DocsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "questionmark.circle"), style: .plain, target: self, action: #selector(handleFoundMistake))
-        
         setupView()
-    }
-    
-    @objc func handleFoundMistake() {
-        print("Found mistake?")
     }
 }
 
